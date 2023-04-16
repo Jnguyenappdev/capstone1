@@ -1,6 +1,14 @@
 .carousel {
-    margin: 40px;
-    width: 417px;
-    height: 415px;
-    border: 20px black solid;
+    margin: auto;
+    width: 25em;
+    height: 25em;
+    border: 1em black solid;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 13em;
+    width: 13em;
+    margin: auto;
+    padding: 1em;
 }
