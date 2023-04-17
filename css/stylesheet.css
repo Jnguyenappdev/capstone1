@@ -11,4 +11,15 @@
     width: 13em;
     margin: auto;
     padding: 1em;
+
 }
+ .navbar-toggler-icon {
+    background-color: gray;
+  }
+  .navbar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width:100%;
+    margin-bottom: 1em;
+  }
