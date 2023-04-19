@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="E-commerce page to sell korean style cakes and services to build and decorate cakes"
+    />
+    <meta
+      name="keywords"
+      content="Cake, pops, cupcakes, rolls, korean, Aesthetic"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="css/stylesheet.css" />
     <title>Cake Break</title>
     <img
@@ -20,9 +31,9 @@
       crossorigin="anonymous"
     ></script>
 
-    <nav class="navbar fixed-top">
+    <nav class="navbar bg-black fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img src="images/inverseLogo.jpg" alt="Logo" width="40" height="40" />
         </a>
         <button
@@ -41,7 +52,9 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Cake Break
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -52,10 +65,19 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                >
+                  Home
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="story.html"> Our Story </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html"> Checkout </a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -64,14 +86,48 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  >Dropdown</a
+                  >Products and Services</a
                 >
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#"> Another Action</a></li>
+                  <li><a class="dropdown-item" href="cakes.html">Cakes</a></li>
+                  <li>
+                    <a class="dropdown-item" href="boxcakes.html"> Box Cakes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cupcakes.html"> Cupcakes</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="cakepops.html">Cake pops</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cakerolls.html">
+                      Cake rolls</a
+                    >
+                  </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#"> Something else here</a>
+                    <a class="dropdown-item" href="workshop.html">
+                      Build-a-Cake Workshop</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Account</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="userreg.html">Sign Up</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="userlog.html"> Log In</a>
                   </li>
                 </ul>
               </li>
