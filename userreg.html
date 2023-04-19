@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="E-commerce page to sell korean style cakes and services to build and decorate cakes"
@@ -49,7 +51,11 @@
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Cake Break
+              <img
+                class="offcanvasimg"
+                src="images/Brown Beige Aesthetic Cake Logo.jpg"
+                alt="logo"
+              />
             </h5>
             <button
               type="button"
@@ -133,8 +139,94 @@
       </div>
     </nav>
   </head>
-  <body></body>
-  <footer>
-  </footer>
+  <body>
+    <div class="signupform">
+      <form>
+        <div class="container">
+          <h2 class="headersignup">Sign Up</h2>
+          <div class="firstlastrow">
+            <div class="row justify-content-center">
+              <div class="col-md-3">
+                <label for="firstnameinput">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstnameinput"
+                  placeholder="First name"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col-md-3">
+                <label for="lastnameinput">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastnameinput"
+                  placeholder="Last name"
+                  aria-label="Last name"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="emailrow">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <label for="emailinput">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailinput"
+                  placeholder="Email Address"
+                  aria-label="Email Address"
+                />
+              </div>
+            </div>
+            <div class="usernamerow">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <label for="usernameinput">User Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="usernameinput"
+                    placeholder="User Namer"
+                    aria-label="User Name"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="passrow">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <label for="passinput">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="passinput"
+                    placeholder="********"
+                    aria-label="Password"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="passconrow">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <label for="passconinput">Password Confirmation</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="passconinput"
+                    placeholder="********"
+                    aria-label="Password"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <footer></footer>
 </html>
-

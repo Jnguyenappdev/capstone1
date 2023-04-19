@@ -3,6 +3,7 @@
     width: 25em;
     height: 25em;
     border: 1em black solid;
+
 }
 .logo {
     display: flex;
@@ -12,6 +13,9 @@
     margin: auto;
     margin-top: 6em;
     margin-bottom: 2em;
+}
+ .offcanvasimg {
+        height: 5em;
 
 }
  .navbar-toggler-icon {
@@ -24,4 +28,88 @@
     width:100%;
     margin:auto;
   }
+ .paragraph1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top:   3%;
+    text-indent: 3%;
+    font-size: small;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .reviews {
+    list-style-type:none;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
 
+.quotes{
+    list-style-type: none;
+    font-style: italic;
+}
+.quote1 {
+    padding-bottom: 2em;
+}
+
+.names {
+    list-style-type: none;
+    
+}
+
+.container {
+    margin-top: 8em;
+    display: block;
+}
+.parastory{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border: 1em black solid;
+    margin-top: 5em;
+    padding: 1em;
+}
+
+.paragraphstory{
+    text-indent: 3em;
+    font-size: small;
+
+}
+
+.headerstory{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.icingcake {
+    margin: auto;
+    border: 1em black solid;
+
+}
+
+.headersignup{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.signupform{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.emailrow{
+    margin-top: 1em;
+}
+
+.usernamerow{
+    margin-top: 1em;
+}
+
+.passrow{
+    margin-top: 1em;
+}
+
+.passconrow{
+    margin-top: 1em;
+}
