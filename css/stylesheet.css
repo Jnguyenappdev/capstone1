@@ -1,3 +1,5 @@
+
+
 .carousel {
     margin: auto;
     width: 25em;
@@ -27,6 +29,7 @@
     top: 0;
     width:100%;
     margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
  .paragraph1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,13 +63,12 @@
 
 .container {
     margin-top: 8em;
-    display: block;
 }
 .parastory{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     border: 1em black solid;
-    margin-top: 5em;
+    margin-top: 4em;
     padding: 1em;
 }
 
@@ -82,7 +84,6 @@
     padding-bottom: 1em;
 }
 .icingcake {
-    margin: auto;
     border: 1em black solid;
 
 }
@@ -112,4 +113,34 @@
 
 .passconrow{
     margin-top: 1em;
+}
+
+.radio{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.radiocheck{
+    margin-bottom: 2em;
+}
+
+.loginform {
+    margin-top:8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loginheader{
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.userlog {
+    margin-bottom: 1em;
+}
+.loginpass{
+    margin-bottom: 2em;
+}
+.logsubmit{
+    margin-top: 2em;
 }

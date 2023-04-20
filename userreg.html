@@ -139,94 +139,191 @@
       </div>
     </nav>
   </head>
-  <body>
-    <div class="signupform">
-      <form>
-        <div class="container">
-          <h2 class="headersignup">Sign Up</h2>
-          <div class="firstlastrow">
-            <div class="row justify-content-center">
-              <div class="col-md-3">
-                <label for="firstnameinput">First Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstnameinput"
-                  placeholder="First name"
-                  aria-label="First name"
-                />
-              </div>
-              <div class="col-md-3">
-                <label for="lastnameinput">Last Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastnameinput"
-                  placeholder="Last name"
-                  aria-label="Last name"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="emailrow">
-            <div class="row justify-content-center">
-              <div class="col-md-6">
-                <label for="emailinput">Email Address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="emailinput"
-                  placeholder="Email Address"
-                  aria-label="Email Address"
-                />
-              </div>
-            </div>
-            <div class="usernamerow">
+  <main>
+    <body>
+      <div class="signupform">
+        <form>
+          <div class="container">
+            <h2 class="headersignup">Sign Up</h2>
+            <div class="firstlastrow">
               <div class="row justify-content-center">
-                <div class="col-md-6">
-                  <label for="usernameinput">User Name</label>
+                <div class="col-md-3">
+                  <label for="firstnameinput">First Name</label>
                   <input
                     type="text"
                     class="form-control"
-                    id="usernameinput"
-                    placeholder="User Namer"
-                    aria-label="User Name"
+                    id="firstnameinput"
+                    placeholder="First name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label for="lastnameinput">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastnameinput"
+                    placeholder="Last name"
+                    aria-label="Last name"
                   />
                 </div>
               </div>
             </div>
-            <div class="passrow">
+            <div class="emailrow">
               <div class="row justify-content-center">
                 <div class="col-md-6">
-                  <label for="passinput">Password</label>
+                  <label for="emailinput">Email Address</label>
                   <input
-                    type="password"
+                    type="email"
                     class="form-control"
-                    id="passinput"
-                    placeholder="********"
-                    aria-label="Password"
+                    id="emailinput"
+                    placeholder="Email Address"
+                    aria-label="Email Address"
                   />
                 </div>
               </div>
-            </div>
-            <div class="passconrow">
-              <div class="row justify-content-center">
-                <div class="col-md-6">
-                  <label for="passconinput">Password Confirmation</label>
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="passconinput"
-                    placeholder="********"
-                    aria-label="Password"
-                  />
+              <div class="usernamerow">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <label for="usernameinput">Username</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="usernameinput"
+                      placeholder="Username"
+                      aria-label="Username"
+                    />
+                  </div>
                 </div>
+              </div>
+              <div class="passrow">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <label for="passinput">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="passinput"
+                      placeholder="********"
+                      aria-label="Password"
+                    />
+                    <small id="passwordHelpInline" class="text-muted">
+                      Must be 8-20 characters long.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="passconrow">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <label for="passconinput">Password Confirmation</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="passconinput"
+                      placeholder="********"
+                      aria-label="Password"
+                    />
+                    <small id="passwordHelpInline" class="text-muted">
+                      Must be 8-20 characters long.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="radio">
+                <fieldset class="form-group">
+                  <div class="row justify-content-center">
+                    <legend class="col-form-label col-md-3">
+                      How did you head about us?
+                    </legend>
+                    <div class="radiocheck">
+                      <div class="firstradio">
+                        <div class="row justify-content-center">
+                          <div class="col-md-2">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="hradio"
+                              id="hradio1"
+                              value="option1"
+                              checked
+                            />
+                            <label class="form-check-label" for="hradio1">
+                              Friend(s)
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="secradio">
+                        <div class="row justify-content-center">
+                          <div class="col-md-2">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="hradio"
+                              id="hradio2"
+                              value="option2"
+                              checked
+                            />
+                            <label class="form-check-label" for="hradion2">
+                              Family
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="thirdradio">
+                        <div class="row justify-content-center">
+                          <div class="col-md-2">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="hradio"
+                              id="hradio3"
+                              value="option3"
+                              checked
+                            />
+                            <label class="form-check-label" for="hradio3">
+                              Social Media
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="fouthradio">
+                        <div class="row justify-content-center">
+                          <div class="col-md-2">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="hradio"
+                              id="hradio4"
+                              value="option4"
+                              check
+                            />
+                            <label class="form-check-label" for="hradio4">
+                              Work
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="submitbutton">
+                      <div class="form-group row justify-content-center">
+                        <div class="col-md-2">
+                          <button type="submit" class="btn btn-primary">
+                            Sign Up
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
               </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-  </body>
+        </form>
+      </div>
+    </body>
+  </main>
+
   <footer></footer>
 </html>
