@@ -145,3 +145,11 @@
     margin-top: 2em;
 
 }
+
+.logincheck{
+    padding-left: 5em;
+}
+
+legend{
+    text-align: center;
+}
