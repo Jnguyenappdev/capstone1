@@ -183,6 +183,7 @@ legend{
     margin: auto;
     margin-top: 6em;
 }
+
 .tableheader{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -279,7 +280,12 @@ legend{
     padding-left: 2em;
     padding-right: 2em;
 }
-
+.sidenote2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: x-small;
+}
 .headercheckout{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -287,7 +293,7 @@ legend{
 
 }
 .checkoutpage{
-    margin-bottom: 5em;
+    margin-bottom: 6em;
 }
 .emailrow{
     margin-top: 1em;
@@ -313,7 +319,9 @@ legend{
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
+body{
+    overflow-x: hidden;
+}
 .cardinfo{
     margin-top: 1em;
     margin-bottom: 1em;
