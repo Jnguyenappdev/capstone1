@@ -175,12 +175,111 @@ legend{
     margin-bottom: 2em;
 
 }
+.checkoutlogo{
+    display: flex;
+    justify-content: center;
+    height: 13em;
+    width: 13em;
+    margin: auto;
+    margin-top: 6em;
+}
 .tableheader{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    margin-top: 4em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
+.checkouttable{
+    display: flex;justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.itemheader{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.qheader{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.pheader{
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.sheader{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.checkoutimage1{
+    display: flex;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px black solid;
+}
+.checkoutimage2{
+    display: flex;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px black solid;
+}
+.checkoutimage3{
+    display: flex;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 5px black solid;
+}
+.qheader2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.pheader2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-bottom: 2em;
+}
+.sheader2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+.checkoutlist{
+    list-style: circle;
+}
+
+.totalcheckout{
+    display: flex;justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .headercheckout{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -189,7 +288,6 @@ legend{
 }
 .checkoutpage{
     margin-bottom: 5em;
-    margin-top: 2em;
 }
 .emailrow{
     margin-top: 1em;
