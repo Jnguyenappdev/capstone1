@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="E-commerce page to sell korean style cakes and services to build and decorate cakes"
+    />
+    <meta
+      name="keywords"
+      content="Cake, pops, cupcakes, rolls, korean, Aesthetic"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <title>Cake Pops</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar bg-black fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="images/inverseLogo.png" alt="Logo" width="40" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img class="offcanvasimg" src="images/black-white-logo.jpg" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="story.html"> Our Story </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html"> Checkout </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Products and Services</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cakes.html">Cakes</a></li>
+                  <li>
+                    <a class="dropdown-item" href="boxcakes.html"> Box Cakes</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cupcakes.html"> Cupcakes</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="cakepops.html">Cake pops</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cakerolls.html">
+                      Cake rolls</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="workshop.html">
+                      Build-a-Cake Workshop</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Account</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="userreg.html">Sign Up</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="userlog.html"> Log In</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </head>
+  <body>
+    <h2 class="cakeheader">Cupcakes</h2>
+    <p class="pcake">Customize your sweet treat!</p>
+    <div class="cakecards2">
+      <div class="cakecard1">
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/cupcakes-1.jpg"
+            class="card-img-top"
+            alt="Cupcakebears"
+          />
+          <div class="card-body">
+            <h3 class="cakecard1header">Cupcakes</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <form>
+              <div class="form-group">
+                <div class="textspecial1">
+                  <label for="specical1">Special Request</label>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="specical1"
+                  placeholder="Ex: Christmas party! "
+                />
+              </div>
+              <div class="form-group">
+                <div class="caketype1">
+                  <label for="caketype1">Vegan, Gluten-free or both</label>
+                  <select class="form-control" id="caketype1">
+                    <option>--Select Option--</option>
+                    <option>Vegan</option>
+                    <option>Gluten-free</option>
+                    <option>Both</option>
+                    <option>None</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="caketype2">
+                  <label for="caketype2">Cake Flavor</label>
+                  <select class="form-control" id="caketype2">
+                    <option>--Select Option--</option>
+                    <option>Chocolate</option>
+                    <option>Vanilla</option>
+                    <option>Red Velvet</option>
+                    <option>Strawberry</option>
+                    <option>Matcha</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="caketype3">
+                  <label for="caketype3">Icing Flavor</label>
+                  <select class="form-control" id="caketype3">
+                    <option>--Select Option--</option>
+                    <option>Chocolate</option>
+                    <option>Vanilla</option>
+                    <option>Red Velvet</option>
+                    <option>Strawberry</option>
+                    <option>Matcha</option>
+                    <option>None</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="caketype4">
+                  <label for="caketype4">Pricing</label>
+                  <select class="form-control" id="caketype4">
+                    <option>--Select Option--</option>
+                    <option>5 cupcake - $10</option>
+                    <option>10 cupcake - $25</option>
+                    <option>25 cupcake - $40</option>
+                    <option>25+ cupcakes - contact</option>
+                  </select>
+                </div>
+              </div>
+              <p class="sidenote1">
+                You will recieve an email or phone call to gather details about
+                your desire outcome for your purchase.
+              </p>
+              <div class="cakecard1button">
+                <button type="button" class="btn btn-primary bg-black">
+                  Add to cart
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="bottomofpage">
+      <div class="footerp">
+        <div class="footerimage">
+          <img src="images/inverseLogo.png" alt="inverseLogo" />
+        </div>
+        <p>
+          Pellentesque nec nam aliquam sem et. Diam volutpat commodo sed egestas
+          egestas. <br />
+          Enim blandit volutpat maecenas volutpat blandit aliquam etiam.
+        </p>
+        <div class="flink">
+          <div class="row justify-content-center">
+            <div class="col-md-1">
+              <div class="fhome">
+                <a href="index.html"> Home </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="flogin">
+                <a href="userlog.html"> Log In </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="fsignup">
+                <a href="userreg.html"> Sign Up </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        &copy;<em id="date"></em>Cake Break
+      </div>
+    </div>
+  </footer>
+</html>

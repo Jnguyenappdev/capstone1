@@ -31,7 +31,7 @@
     <nav class="navbar bg-black fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
-          <img src="images/inverseLogo.jpg" alt="Logo" width="40" height="40" />
+          <img src="images/inverseLogo.png" alt="Logo" width="40" height="40" />
         </a>
         <button
           class="navbar-toggler"
@@ -153,6 +153,7 @@
                   id="firstnameinput"
                   placeholder="First name"
                   aria-label="First name"
+                  required
                 />
               </div>
               <div class="col-md-3">
@@ -163,6 +164,7 @@
                   id="lastnameinput"
                   placeholder="Last name"
                   aria-label="Last name"
+                  required
                 />
               </div>
             </div>
@@ -177,6 +179,7 @@
                   id="emailinput"
                   placeholder="Email Address"
                   aria-label="Email Address"
+                  required
                 />
               </div>
             </div>
@@ -190,6 +193,7 @@
                     id="usernameinput"
                     placeholder="Username"
                     aria-label="Username"
+                    required
                   />
                 </div>
               </div>
@@ -204,6 +208,9 @@
                     id="passinput"
                     placeholder="********"
                     aria-label="Password"
+                    minlength="8"
+                    maxlength="20"
+                    required
                   />
                   <small id="passwordHelpInline" class="text-muted">
                     Must be 8-20 characters long.
@@ -221,16 +228,19 @@
                     id="passconinput"
                     placeholder="********"
                     aria-label="Password"
+                    minlength="8"
+                    maxlength="20"
+                    required
                   />
                   <small id="passconinputmute" class="text-muted">
-                    Must be 8-20 characters long.
+                    Confirm password by reentering.
                   </small>
                 </div>
               </div>
             </div>
             <div class="radio">
               <fieldset class="form-group">
-                <legend class="col-form-label ">
+                <legend class="col-form-label">
                   How did you head about us?
                 </legend>
                 <div class="row justify-content-center">
@@ -321,5 +331,38 @@
       </form>
     </div>
   </body>
-  <footer></footer>
+  <footer>
+    <div class="bottomofpage">
+      <div class="footerp">
+        <div class="footerimage">
+          <img src="images/inverseLogo.png" alt="inverseLogo" />
+        </div>
+        <p>
+          Pellentesque nec nam aliquam sem et. Diam volutpat commodo sed egestas
+          egestas. <br />
+          Enim blandit volutpat maecenas volutpat blandit aliquam etiam.
+        </p>
+        <div class="flink">
+          <div class="row justify-content-center">
+            <div class="col-md-1">
+              <div class="fhome">
+                <a href="index.html"> Home </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="flogin">
+                <a href="userlog.html"> Log In </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="fsignup">
+                <a href="userreg.html"> Sign Up </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        &copy;<em id="date"></em>Cake Break
+      </div>
+    </div>
+  </footer>
 </html>

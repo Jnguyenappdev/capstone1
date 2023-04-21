@@ -31,7 +31,7 @@
     <nav class="navbar bg-black fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
-          <img src="images/inverseLogo.jpg" alt="Logo" width="40" height="40" />
+          <img src="images/inverseLogo.png" alt="Logo" width="40" height="40" />
         </a>
         <button
           class="navbar-toggler"
@@ -138,6 +138,240 @@
       </div>
     </nav>
   </head>
-  <body></body>
-  <footer></footer>
+  <body>
+    <div class="checkouttable">
+      <div>
+        <h2 class="tableheader">Cart</h2>
+      </div>
+      <table>
+        <tr>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </table>
+    </div>
+    <div class="checkoutpage">
+      <form>
+        <div class="container">
+          <div class="headercheckout">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <h2 class="headercheckout">Checkout</h2>
+              </div>
+            </div>
+          </div>
+          <div class="emailrow">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <label for="emailinput1">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailinput1"
+                  placeholder="Email Address"
+                  aria-label="Email Address"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="address1row">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <label for="addressinput">Street</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addressinput"
+                  placeholder="1234 Street"
+                  aria-label="Street"
+                  required
+                />
+              </div>
+            </div>
+            <div class="address2row">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <label for="addressinput2">Street line 2</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="addressinput2"
+                    placeholder="1234 Street"
+                    aria-label="Street"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="address3row">
+              <div class="row justify-content-center">
+                <div class="col-md-3">
+                  <label for="addressinput3"> City </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="addressinput3"
+                    placeholder="City"
+                    aria-label="City"
+                    required
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label for="addressinput4">Zipcode</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="addressinput4"
+                    placeholder="Zipcode"
+                    aria-label="Zipcode"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="addressinput45">
+              <div class="row justify-content-center">
+                <div class="col-md-3">
+                  <label for="addressinput5">State</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="addressinput5"
+                    placeholder="State"
+                    aria-label="State"
+                    required
+                  />
+                </div>
+                <div class="col-md-3">
+                  <label for="addressinput6"> Apartment Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="addressinput6"
+                    placeholder="1234"
+                    aria-label="apptnumber"
+                  />
+                </div>
+              </div>
+              <div class="ccinfoheader">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <h2 class="ccinfoheader">Payment</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="cardinfo">
+                <div class="ccnum">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <label for="ccnuminput"> Credit Card Number</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="ccnuminput"
+                        placeholder="1234 - 5678 - 9000 - 0000"
+                        aria-label="CC Number"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cardinfo2">
+                <div class="ccinfo2">
+                  <div class="row justify-content-center">
+                    <div class="col-md-2">
+                      <label for="ccinfoinput"> CVV </label>
+                      <input
+                        type="password"
+                        id="ccinfoinput"
+                        class="form-control"
+                        placeholder="***"
+                        aria-label="Cvv"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-2">
+                      <label for="ccinfo3"> Exp. Date </label>
+                      <input
+                        type="month"
+                        id="ccinfo3"
+                        class="form-control"
+                        aria-label="Month"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-2">
+                      <label for="ccinfo4">Zipcode</label>
+                      <input
+                        type="text"
+                        id="ccinfo4"
+                        class="form-control"
+                        placeholder="1234"
+                        aria-label="Zipcode"
+                        required
+                        minlength="3"
+                        maxlength="3"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="submitcheckout">
+                <div class="row justify-content-center">
+                  <div class="col-md-8">
+                    <button class="btn btn-primary bg-black" type="submit">
+                      Checkout
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div class="bottomofpage">
+      <div class="footerp">
+        <div class="footerimage">
+          <img src="images/inverseLogo.png" alt="inverseLogo" />
+        </div>
+        <p>
+          Pellentesque nec nam aliquam sem et. Diam volutpat commodo sed egestas
+          egestas. <br />
+          Enim blandit volutpat maecenas volutpat blandit aliquam etiam.
+        </p>
+        <div class="flink">
+          <div class="row justify-content-center">
+            <div class="col-md-1">
+              <div class="fhome">
+                <a href="index.html"> Home </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="flogin">
+                <a href="userlog.html"> Log In </a>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="fsignup">
+                <a href="userreg.html"> Sign Up </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        &copy;<em id="date"></em>Cake Break
+      </div>
+    </div>
+  </footer>
 </html>
