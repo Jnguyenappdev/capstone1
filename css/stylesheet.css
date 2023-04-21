@@ -500,3 +500,6 @@ body{
     margin-top: 1em;
     margin-bottom: 2em;
 }
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
